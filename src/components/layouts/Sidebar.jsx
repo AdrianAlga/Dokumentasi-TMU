@@ -28,41 +28,22 @@ function Sidebar() {
           Introduction
         </NavLink>
 
-        <NavLink to="installation" className="nav-item">
-          Installation
+        <NavLink to="akuntansi" className="nav-item">
+          Alur Akuntansi
         </NavLink>
 
         <NavLink to="artisan" className="nav-item">
           Artisan Commands
         </NavLink>
 
-        <NavLink to="routing" className="nav-item">
-          Routing
-        </NavLink>
-
-        <NavLink to="middleware" className="nav-item">
-          Middleware
-        </NavLink>
-
-        <NavLink to="migration" className="nav-item">
-          Migrations
-        </NavLink>
-
-        <NavLink to="models" className="nav-item">
-          Models
-        </NavLink>
-
-        <NavLink to="relationship" className="nav-item">
-          Eloquent Relationship
-        </NavLink>
       </div>
 
-      <div className="nav-section">
+      {/* <div className="nav-section">
         <h3>Mini Project</h3>
         <a href="#auth-overview" className="nav-item">
           Overview
         </a>
-      </div>
+      </div> */}
     </nav>
   );
 }

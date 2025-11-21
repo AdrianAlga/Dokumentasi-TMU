@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #f9fafb, #ffffff, #f3f4f6);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -75,7 +75,9 @@
 
 .doc-card.laravel:hover {
   background-color: #f05033;
-  color: white;
+  span {
+    color: #ffffff;
+  }
 }
 
 /* Warna tema React */
@@ -89,7 +91,9 @@
 
 .doc-card.react:hover {
   background-color: #61dafb;
+  span {
   color: white;
+}
 }
 
 /* === Footer === */

@@ -7,19 +7,19 @@ export default function SelectDocs() {
       <h1 className="selectdocs-title">Pilih Dokumentasi</h1>
 
       <div className="selectdocs-buttons">
-        <Link to="/laravel" className="doc-card laravel">
-          <div className="icon">🚀</div>
-          <span>Laravel</span>
+        <Link to="/simakda" className="doc-card laravel">
+          <div className="icon">💰</div>
+          <span>Simakda</span>
         </Link>
 
         <Link to="/react" className="doc-card react">
-          <div className="icon">⚛️</div>
-          <span>React</span>
+          <div className="icon">📚</div>
+          <span>Simbakda</span>
         </Link>
       </div>
 
       <p className="selectdocs-footer">
-        Dibuat dengan ❤️ oleh <span>Adrian Dev</span>
+        Dibuat oleh <span>Adrian Alga Sakti</span>
       </p>
     </div>
   );

@@ -1,55 +1,19 @@
 import CardCode from "../../components/Cards/CardCode";
 import DropDown from "../../components/Cards/DropDown";
 
-function Installation() {
-  const responseExample = {
-    data: [
-      {
-        id: 1,
-        name: "John Doe",
-        email: "john@example.com",
-        created_at: "2024-01-15T10:30:00Z",
-      },
-    ],
-    meta: {
-      current_page: 1,
-      total: 150,
-      per_page: 20,
-    },
-  };
-
+function Akuntansi() {
   return (
     <div>
       <nav className="breadcrumb">
-        <a href="#home">Home</a> / <a href="#getting-started">Getting Started</a> / Installation
+        <a href="#home">Home</a> / <a href="#getting-started">Getting Started</a> / Akuntansi
       </nav>
 
-      <h1>Installation</h1>
-      <p>Tahap pertama adalah menginstal Laravel di server Anda. Anda dapat menggunakan Composer untuk menginstal Laravel.</p>
+      <h1>Akuntansi</h1>
+      <p>Berikut alur akuntansi keuangan daerah dari awal perencanaan sampai uang benar-benar keluar.</p>
 
-      <h2>Persyaratan Sistem</h2>
-      <p>Sebelum menginstall Laravel, pastikan sistem Anda memenuhi persyaratan berikut:</p>
-      <ul className="requirements">
-        <li>
-          PHP (versi terbaru). {""}
-          <a href="https://www.php.net/" target="_blank">
-            Download
-          </a>
-        </li>
-        <li>
-          MySQL (versi terbaru).{" "}
-          <a href="https://www.oracle.com/mysql/technologies/mysql-enterprise-edition-downloads.html" target="_blank">
-            Download
-          </a>
-        </li>
-        <li>
-          Composer (versi terbaru).{" "}
-          <a href="https://getcomposer.org/download/" target="_blank">
-            Download
-          </a>
-        </li>
-        <li>Terminal Bawaan (Windows, Linux, atau macOS)</li>
-      </ul>
+      <h2>1. RKA – Rencana Kerja dan Anggaran</h2>
+      <p>Ini tahap OPD menyusun rencana kegiatan + kebutuhan uangnya untuk setahun.</p>
+      <strong>➡️ Ibarat OPD membuat daftar belanja: “Tahun depan saya perlu uang untuk A, B, C.”</strong>
 
       <h2>Install Laravel dengan Composer</h2>
       <p>Setelah memastikan PHP, MySQL, dan Composer sudah terinstal, Anda dapat menggunakan Composer untuk menginstal Laravel dengan perintah berikut:</p>
@@ -82,7 +46,7 @@ function Installation() {
 
       <div className="alert alert-info">
         <strong>💡 Link Dokumentasi Resmi :</strong> Ini adalah dokumentasi{" "}
-        <a href="https://laravel.com/docs/12.x/installation" style={{ color: "#93c5fd" }} target="_blank">
+        <a href="https://laravel.com/docs/12.x/Akuntansi" style={{ color: "#93c5fd" }} target="_blank">
           Laravel
         </a>{" "}
         untuk informasi lebih lanjut.
@@ -91,4 +55,4 @@ function Installation() {
   );
 }
 
-export default Installation;
+export default Akuntansi;
